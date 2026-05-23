@@ -2,12 +2,12 @@
 
 # Content Coach Installer (macOS)
 # Detects existing install location and replaces in-place. Uses sudo only for /Applications.
-# Usage: curl -fsSL https://raw.githubusercontent.com/jazonh/Electron-Content-Coach-Releases/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/TCGplayer/Electron-Content-Coach-Releases/main/install.sh | bash
 
 set -euo pipefail
 
 VERSION="${1:-latest}"
-REPO="jazonh/Electron-Content-Coach-Releases"
+REPO="TCGplayer/Electron-Content-Coach-Releases"
 APP_NAME="Content Coach"
 WORK_DIR="$(mktemp -d)"
 
